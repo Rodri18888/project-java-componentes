@@ -64,34 +64,34 @@ Las siguientes imágenes corresponden a la creación de objetos y uso de método
 Cada captura muestra la salida por consola de su respectiva clase.
 
 ### Vehiculo
-![Vehiculo](../screenshots/vehiculo.png)
+![Vehiculo](src/screenshots/vehiculo.png)
 
 ### Motor
-![Motor](../screenshots/motor.png)
+![Motor](src/screenshots/motor.png)
 
 ### Transmision
-![Transmision](../screenshots/transmision.png)
+![Transmision](src/screenshots/transmision.png)
 
 ### Chasis
-![Chasis](../screenshots/chasis.png)
+![Chasis](src/screenshots/chasis.png)
 
 ### Neumatico
-![Neumatico](../screenshots/neumatico.png)
+![Neumatico](src/screenshots/neumatico.png)
 
 ### SistemaElectrico
-![SistemaElectrico](../screenshots/sistemaelectrico.png)
+![SistemaElectrico](src/screenshots/sistemaelectrico.png)
 
 ### SistemaFrenos
-![SistemaFrenos](../screenshots/sistemafrenos.png)
+![SistemaFrenos](src/screenshots/sistemafrenos.png)
 
 ### RegistroVehicular
-![RegistroVehicular](../screenshots/registrovehicular.png)
+![RegistroVehicular](src/screenshots/registrovehicular.png)
 
 ### Mantenimiento
-![Mantenimiento](../screenshots/mantenimiento.png)
+![Mantenimiento](src/screenshots/mantenimiento.png)
 
 ### Sensor
-![Sensor](../screenshots/sensor.png)
+![Sensor](src/screenshots/sensor.png)
 
 ---
 

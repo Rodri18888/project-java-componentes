@@ -1,19 +1,98 @@
-## Getting Started
+# Project java componentes
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este proyecto implementa varias clases que representan los sistemas y componentes principales de un vehículo.  
+Cada clase incluye atributos, constructor y un método para mostrar su información.  
+Además, todas las clases fueron probadas mediante archivos *Demo* que crean objetos y muestran la salida por consola.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Descripción de las Clases y sus Relaciones
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+A continuación se describen todas las clases creadas y cómo se relacionan entre sí.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Vehiculo
+Representa un vehículo genérico con identificación, marca y modelo.  
+Se relaciona con varias clases porque las utiliza como parte de su composición interna.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Motor
+Describe las características técnicas del motor: tipo, cilindrada y potencia.  
+Es utilizado por la clase Vehiculo.
 
-## Dependency Management
+### Transmision
+Contiene la descripción del sistema de transmisión: tipo, marchas y tracción.  
+Es parte de la composición de Vehiculo.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# project-java-componentes
+### Chasis
+Incluye tipo de chasis, dimensiones y peso.  
+Vehiculo contiene un objeto de esta clase.
+
+### Neumatico
+Representa una llanta con datos como marca, tamaño y presión.  
+Un vehículo puede tener varios neumáticos.
+
+### SistemaElectrico
+Describe el sistema eléctrico del vehículo: batería, luces y sensores eléctricos.  
+Es otro componente interno de Vehiculo.
+
+### SistemaFrenos
+Contiene información del sistema de frenos: tipo, discos, ABS y estado.  
+Vehiculo también incluye un objeto de esta clase.
+
+### RegistroVehicular
+Datos legales del vehículo: matrícula, propietario y fecha de registro.
+
+### Mantenimiento
+Registra mantenimientos realizados o programados.  
+Un vehículo puede tener varios registros de mantenimiento.
+
+### Sensor
+Modela sensores como temperatura, presión o velocidad.  
+Vehiculo puede contener una lista de sensores.
+
+---
+
+## Relaciones Generales del Sistema
+
+
+El vehículo actúa como clase principal y todos los demás componentes se integran en él mediante composición o agregación.
+
+---
+
+## Capturas de Pantalla de la Ejecución
+
+Las siguientes imágenes corresponden a la creación de objetos y uso de métodos en las clases Demo.  
+Cada captura muestra la salida por consola de su respectiva clase.
+
+### Vehiculo
+![Vehiculo](screenshots/vehiculo.png)
+
+### Motor
+![Motor](screenshots/motor.png)
+
+### Transmision
+![Transmision](screenshots/transmision.png)
+
+### Chasis
+![Chasis](screenshots/chasis.png)
+
+### Neumatico
+![Neumatico](screenshots/neumatico.png)
+
+### SistemaElectrico
+![SistemaElectrico](screenshots/sistemaelectrico.png)
+
+### SistemaFrenos
+![SistemaFrenos](screenshots/sistemafrenos.png)
+
+### RegistroVehicular
+![RegistroVehicular](screenshots/registrovehicular.png)
+
+### Mantenimiento
+![Mantenimiento](screenshots/mantenimiento.png)
+
+### Sensor
+![Sensor](screenshots/sensor.png)
+
+---
+
+
